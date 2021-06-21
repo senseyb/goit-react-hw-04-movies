@@ -1,0 +1,21 @@
+.List {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ListItem:not(:last-child) {
+  margin-right: 25px;
+}
+
+.NavLink {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+}
+
+.NavLinkActive {
+  color: #fff;
+}

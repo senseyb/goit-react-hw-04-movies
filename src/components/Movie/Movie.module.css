@@ -1,0 +1,22 @@
+.MovieBox {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.Image {
+  margin-right: 50px;
+}
+
+.MovieTitle {
+  text-transform: uppercase;
+}
+
+.MovieOverview {
+  font-size: 18px;
+}
